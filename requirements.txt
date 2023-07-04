@@ -1,0 +1,12 @@
+asgiref==3.7.2
+backports.zoneinfo==0.2.1
+dj-database-url==2.0.0
+Django==4.2.3
+django-on-heroku==1.1.2
+djangorestframework==3.14.0
+gunicorn==20.1.0
+psycopg2-binary==2.9.6
+pytz==2023.3
+sqlparse==0.4.4
+typing_extensions==4.7.1
+whitenoise==6.5.0
