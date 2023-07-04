@@ -48,7 +48,7 @@ deploy-job:
     - echo "Deploying application..."
     - echo "Application successfully deployed."
     - heroku login --email mominalkhoker589@gmail.com --api-key 05d6ea82-4aab-4c66-bedb-f44f7f2dfec7
-    - heroku git:remote -a test-
+    - heroku git:remote -a test-q
     - git push heroku HEAD:main
   only:
     - main
