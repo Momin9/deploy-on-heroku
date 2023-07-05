@@ -12,4 +12,4 @@ whitenoise = "*"
 
 [requires]
 python_version = "3.8"
-python_full_version = "3.10.12"
+python_full_version = "3.9.17"
