@@ -1,0 +1,10 @@
+{
+  "name": "@store",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "files": ["*"],
+  "author": "SmartHomeIOT",
+  "license": "ISC"
+}

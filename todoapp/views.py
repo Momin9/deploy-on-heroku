@@ -36,4 +36,4 @@ def create_superuser(request):
         return Response({'error': 'Missing required fields'}, status=status.HTTP_400_BAD_REQUEST)
 
     user = User.objects.create_superuser(username=username, password=password, email=email)
-    return Response({'success': 'Superuser created'}, status=status.HTTP_201_CREATED)
+    return Response({'success': 'Superuser created', "user": user}, status=status.HTTP_201_CREATED)

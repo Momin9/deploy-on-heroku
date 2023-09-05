@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    httpparty (0.1.0)
+      httparty (> 0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.20.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    multi_xml (0.6.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  httpparty!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
