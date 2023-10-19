@@ -27,6 +27,8 @@ share/python-wheels/
 MANIFEST
 media/
 mediafiles/
+modules/timer_app/migrations/0005_auto_20230904_1204.py
+modules/timer_app/migrations/0006_auto_20230904_1525.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
