@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <br>
+    <div style="text-align: center;">
+        <h1 style="color: #1B2430; font-size: 28px;">Select the user you want to chat with...</h1>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <form method="post">
+            {% csrf_token %}
+            <select id="users" name="users" style="padding: 10px; border-radius: 5px;">
+                {% for receiver in users %}
+                    <option value="{{ receiver.id }}">
+                        {{ receiver.username }} - {{ receiver.first_name }} {{ receiver.last_name }}
+                    </option>
+                {% endfor %}
+            </select>
+            <br><br>
+            <button class="btn" type="submit" style="background-color: #1B2430; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Start Chat
+            </button>
+        </form>
+    </div>
+{% endblock %}

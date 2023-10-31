@@ -12,3 +12,10 @@ pytz==2023.3
 sqlparse==0.4.4
 typing_extensions==4.7.1
 whitenoise==6.5.0
+django-environ==0.4.5
+crypto==1.4.1
+cryptography==41.0.3
+pycrypto==2.6.1
+pycryptodome==3.18.0
+django-rest-auth==0.9.5
+django-rest-passwordreset==1.0.0

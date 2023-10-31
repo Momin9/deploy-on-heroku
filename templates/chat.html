@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-3">
+            <div class="user-list">
+                <h3>Conversations</h3>
+                <ul>
+                    <li class="active">
+                        <div class="profile-image">
+                            <img src="user1.jpg" alt="User 1">
+                        </div>
+                        <div class="user-info">
+                            <h4>User 1</h4>
+                            <p>Last message preview</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-image">
+                            <img src="user2.jpg" alt="User 2">
+                        </div>
+                        <div class="user-info">
+                            <h4>User 2</h4>
+                            <p>Last message preview</p>
+                        </div>
+                    </li>
+                    <!-- Add more user entries -->
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="profile-image">
+                        <img src="user1.jpg" alt="User 1">
+                    </div>
+                    <div class="user-info">
+                        <h4>User 1</h4>
+                        <p>Active now</p>
+                    </div>
+                    <div class="options">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+                <div class="chat-messages">
+                    <div class="message received">
+                        <p>This is a received message.</p>
+                    </div>
+                    <div class="message sent">
+                        <p>This is a sent message.</p>
+                    </div>
+                    <!-- Add more messages -->
+                </div>
+                <div class="message-input">
+                    <input type="text" placeholder="Type your message">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

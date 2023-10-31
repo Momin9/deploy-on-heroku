@@ -20,6 +20,13 @@ sqlparse = "==0.4.4"
 typing-extensions = "==4.7.1"
 pytest = "*"
 djangorestframework-jwt = "*"
+django-import-export = "*"
+django-admin-interface = "==0.26.0"
+pusher = "*"
+python-dotenv = "*"
+crypto = "*"
+django-allauth = "*"
+phonenumbers = "*"
 
 [dev-packages]
 
