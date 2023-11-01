@@ -35,6 +35,7 @@ urlpatterns = [
                   path('api-token-auth', views.obtain_auth_token),
                   path('api/token/', obtain_jwt_token, name='token_obtain_pair'),
                   path('api/token/refresh/', refresh_jwt_token, name='token_refresh'),
-                  path("", include("chatapp.urls")),
-                  path('', include('cms.urls'))
+                  path("chat/", include("chatapp.urls")),
+                  path('cms/', include('cms.urls')),
+                  path('', include('chatingapp.urls'))
               ] + static.static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

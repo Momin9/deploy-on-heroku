@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Pipenv (todoproject)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (todoproject)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (deploy-on-heroku)" project-jdk-type="Python SDK" />
 </project>

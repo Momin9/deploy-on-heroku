@@ -27,6 +27,11 @@ python-dotenv = "*"
 crypto = "*"
 django-allauth = "*"
 phonenumbers = "*"
+djangocms-admin-style = "*"
+channels = "*"
+djangorestframework-simplejwt = "*"
+graphene-django = "*"
+djangorestframework-jwt-5 = "==1.13.0"
 
 [dev-packages]
 
